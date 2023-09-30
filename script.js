@@ -1,12 +1,11 @@
-//your JS code here. If required.
 function allSizes () {
-const size1 = document.getElementById("size");
-const widthSize = window.innerWidth;
-const heigthSize = window.innerHeight;
+	const size1 = document.getElementById("size");
+	const widthSize = window.innerWidth;
+	const heightSize = window.innerHeight;
 
-size1.textContent = `width: ${widthSize} and height: ${heigthSize}`
+	size1.textContent = `width: ${widthSize} and height: ${heightSize}`;
 }
-allSizes();
-
-
+ allSizes();
 setInterval(allSizes);
+
+
