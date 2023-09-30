@@ -4,7 +4,7 @@ const size1 = document.getElementById("size");
 const widthSize = window.innerWidth;
 const heigthSize = window.innerHeight;
 
-size1.textContent = `width: ${widthSize} | height: ${heigthSize}`
+size1.textContent = `width: ${widthSize} and height: ${heigthSize}`
 }
 allSizes();
 
